@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background: #F9E4BC;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+    margin: 20px;
+}
+
+.search {
+    margin: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    margin: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    border-radius: 40px;
+}
+
+.search input {
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid #6F4E37;
+    text-align: center;
+    background: #6F4E37;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.container button {
+    position: fixed;
+    top: 20px;
+    left: 1330px;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #6F4E37;
+    color: white;
+    border: none;
+    transition: transform 0.4s ease;
+} 
+
+.container button:hover {
+   transform: scale(1.1);
+}
+
+.coffee {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background: #6F4E37;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.coffee-result {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    color: #6F4E37;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.menu-item h4 {
+    margin-bottom: 5px;
+}
+
+.menu-item p {
+    margin: 2px 0;
+}
+
+.menu-item button {
+    margin-top: 8px;
+    padding: 6px 12px;
+    background-color: #6F4E37;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.menu-item button:hover {
+    background-color: #5a3e2c;
+}
+
+.fa-spinner {
+    margin-left: 10px;
+}
+
+.available {
+    color: green;
+    font-weight: bold;
+}
+
+.unavailable {
+    color: red;
+    font-weight: bold;
+}
